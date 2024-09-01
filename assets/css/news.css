@@ -1,0 +1,25 @@
+.news-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.paggination{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    padding: 0.5rem;
+    justify-content: center;
+}
+.pag-btn{
+    min-width: 50px;
+    min-height: 50px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 900;
+}
+.pag-arrow{
+    width: 100px;
+    border-radius: 70px 20px 70px 20px;
+}
